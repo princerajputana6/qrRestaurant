@@ -108,7 +108,7 @@ box-shadow: 2px 0px 2px 0px;
 .itemPanel .item .itemInfo{
     margin: 0px 10px;
     line-height: 30px;
-    width: 160px;
+    width: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -129,6 +129,7 @@ box-shadow: 2px 0px 2px 0px;
     align-items: flex-end;
 
 }
+
 .itemPanel .item .itemPrice p{
     font-size: 14px;
     font-family: 'Zen Antique', serif;
@@ -199,3 +200,22 @@ box-shadow: 2px 0px 2px 0px;
     display: flex;
     flex-direction: column;
   }
+  /* media quaries  */
+  @media (max-width:400px){
+    .itemPanel .item .itemImage{
+        width: 80px;
+    }
+    .itemPanel .item .itemImage img{
+        width: 60px;
+        height: 60px;
+        margin-left: 40px;
+    }
+    .itemPanel .item .itemInfo{
+        margin: 0px 30px;
+        width: 100px;
+    }
+    .itemPanel .item .itemPrice{
+        width: 150px;
+    
+    }
+}
